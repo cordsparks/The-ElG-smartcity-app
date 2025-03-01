@@ -1,9 +1,5 @@
-// Display current date
-document.addEventListener("DOMContentLoaded", function () {
-    let dateElement = document.getElementById("currentDate");
-    if (dateElement) {
-        let today = new Date();
-        let options = { year: "numeric", month: "long", day: "numeric" };
-        dateElement.innerText = today.toLocaleDateString("en-US", options);
-    }
-});
+// Get menu button and list
+const menuToggle = document.querySelector(".mobile-nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+    navLinks.classList.toggle("active");
+    

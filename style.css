@@ -1,22 +1,50 @@
-.contact {
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    padding: 20px;
 }
 
-.contact-info {
-    margin-top: 15px;
-    font-size: 18px;
+/* Navbar Container */
+.navbar-container {
+    background-color: #007bff; /* Blue color */
+    padding: 15px;
 }
 
-.contact-info p {
-    margin: 8px 0;
+/* Logo Styling */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.contact-info a {
-    color: #007bff;
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 10px;
+}
+
+/* Button Styling */
+.nav-links a {
     text-decoration: none;
+    background-color: white;
+    color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
 }
 
-.contact-info a:hover {
-    text-decoration: underline;
+/* Hover Effect */
+.nav-links a:hover {
+    background-color: #0056b3;
+    color: white;
 }
